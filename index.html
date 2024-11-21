@@ -3,72 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Easy Calculator</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
     <div class="container">
         <div class="caculator">
-            <form >
+            <form>
                 <div class="display">
-                    
-                    <input type="text" name="display" id="input-display">
+                    <input type="text" name="display" id="input-display" readonly>
                 </div>
                 <div>
-                    <button class="operator allClr">AC</button>
-                    <button class="operator delete">DE</button>
-                    <button class="operator dot">.</button>
-                    <button class="operator devide">/</button>
-                    
+                    <button class="operator allClr" type="button">AC</button>
+                    <button class="operator delete" type="button">DE</button>
+                    <button class="operator dot" type="button">.</button>
+                    <button class="operator devide" type="button">/</button>
                 </div>
                 <div>
-
-                    <button class="operator seven">7</button>
-                    <button class="operator eight">8</button>
-                    <button class="operator nine">9</button>
-                    <button class="operator multiply">*</button>
+                    <button class="operator seven" type="button">7</button>
+                    <button class="operator eight" type="button">8</button>
+                    <button class="operator nine" type="button">9</button>
+                    <button class="operator multiply" type="button">*</button>
                 </div>
                 <div>
-
-                    <button class="operator four">4</button>
-                    <button class="operator five">5</button>
-                    <button class="operator six">6</button>
-                    <button class="operator substract">-</button>
-
+                    <button class="operator four" type="button">4</button>
+                    <button class="operator five" type="button">5</button>
+                    <button class="operator six" type="button">6</button>
+                    <button class="operator substract" type="button">-</button>
                 </div>
                 <div>
-
-                    <button class="operator one" >1</button>
-                    <button class="operator two">2</button>
-                    <button class="operator three">3</button>
-                    <button class="operator add">+</button>
-
-                    
+                    <button class="operator one" type="button">1</button>
+                    <button class="operator two" type="button">2</button>
+                    <button class="operator three" type="button">3</button>
+                    <button class="operator add" type="button">+</button>
                 </div>
                 <div>
-                    <button class="operator doubleZero">00</button>
-                    <button class="operator zero">0</button>
-                    <button class="operator equal">=</button>
-                    
+                    <button class="operator doubleZero" type="button">00</button>
+                    <button class="operator zero" type="button">0</button>
+                    <button style="color: white; font-size: 30px;" class="operator equal"                       type="button">=</button>
                 </div>
             </form>
         </div>
     </div>
-    
-</body>
-</html>
-
-
     <script src="script.js"></script>
 </body>
 </html>
